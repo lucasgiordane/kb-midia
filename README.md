@@ -15,7 +15,8 @@ Aprovação vale por post. Um ok não libera os seguintes.
 
 | Pasta | O que tem |
 |---|---|
-| `posts/AAAA-MM-DD_tema/` | Fonte de cada post: `slides.html` (as artes) e `legenda.md` (legenda, comentário fixado, checklist) |
+| `rascunhos/` | Posts ainda não aprovados. Fica só na máquina, o Git ignora e nunca sobe |
+| `posts/AAAA-MM-DD_tema/` | Fonte de cada post aprovado: `slides.html` (as artes) e `legenda.md` (legenda, comentário fixado, checklist) |
 | `carrossel/AAAA-MM/` | PNGs 1080×1350 dos carrosséis aprovados |
 | `reels/AAAA-MM/` | Capas e textos de reel (1080×1920) |
 | `stories/AAAA-MM/` | Stories (1080×1920) |
