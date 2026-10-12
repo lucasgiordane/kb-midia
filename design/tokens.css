@@ -1,0 +1,33 @@
+/* Karen Barros Nutri — tokens (espelho do design system) */
+@font-face { font-family: "Barlow Condensed"; src: url("fonts/BarlowCondensed-SemiBold.ttf") format("truetype"); font-weight: 600; }
+@font-face { font-family: "Barlow Condensed"; src: url("fonts/BarlowCondensed-Bold.ttf") format("truetype"); font-weight: 700; }
+@font-face { font-family: "Barlow Condensed"; src: url("fonts/BarlowCondensed-ExtraBold.ttf") format("truetype"); font-weight: 800; }
+@font-face { font-family: "DM Sans"; src: url("fonts/DMSans.ttf") format("truetype"); font-weight: 100 1000; }
+
+:root {
+  --fundo: #F5F1E8;
+  --fundo-elevado: #FFFFFF;
+  --areia: #E8DFCC;
+  --menta: #D3E8DD;
+  --verde: #2C6E5A;
+  --verde-profundo: #0F2E28;
+  --energia: #FF7849;
+  --texto: var(--verde-profundo);
+  --texto-suave: #4A5F58;
+  --texto-claro: var(--fundo);
+  --texto-claro-suave: #B9CCC4;
+
+  --espaco-1: 16px;
+  --espaco-2: 24px;
+  --espaco-3: 40px;
+  --espaco-4: 64px;
+  --margem-segura: 88px;
+
+  --raio-sm: 12px;
+  --raio-md: 24px;
+  --raio-lg: 48px;
+  --raio-pilula: 999px;
+
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-texto: "DM Sans", system-ui, sans-serif;
+}

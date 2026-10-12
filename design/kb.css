@@ -1,0 +1,49 @@
+/* Karen Barros Nutri — classes das peças. Valores vêm dos tokens. */
+.kb-caixa-alta { text-transform: uppercase; }
+
+.kb-arte { box-sizing: border-box; position: relative; overflow: hidden; display: flex; flex-direction: column;
+  padding: var(--margem-segura); background: var(--fundo); color: var(--texto); font-family: var(--font-texto); flex: none; }
+.kb-arte * { box-sizing: border-box; }
+.kb-arte--carrossel { width: 1080px; height: 1350px; }
+.kb-arte--vertical { width: 1080px; height: 1920px; }
+.kb-arte--areia { background: var(--areia); }
+.kb-arte--verde { background: var(--verde); color: var(--texto-claro); }
+.kb-arte--escura { background: var(--verde-profundo); color: var(--texto-claro); }
+
+.kb-etiqueta { font-family: var(--font-texto); font-size: 24px; line-height: 30px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--verde); margin: 0 0 var(--espaco-2); }
+.kb-arte--escura .kb-etiqueta, .kb-arte--verde .kb-etiqueta { color: var(--texto-claro-suave); }
+.kb-arte--verde .kb-etiqueta { color: var(--texto-claro); }
+
+.kb-titulo-capa { font-family: var(--font-display); font-size: 120px; line-height: .92; font-weight: 800; letter-spacing: -.01em; text-transform: uppercase; margin: 0; }
+.kb-titulo { font-family: var(--font-display); font-size: 76px; line-height: .95; font-weight: 700; margin: 0; }
+.kb-gancho { font-family: var(--font-display); font-size: 64px; line-height: 1; font-weight: 800; margin: 0; }
+.kb-numero { font-family: var(--font-display); font-size: 160px; line-height: .85; font-weight: 800; color: var(--verde); margin: 0 0 var(--espaco-3); }
+.kb-arte--escura .kb-numero { color: var(--energia); }
+.kb-subtitulo { font-size: 40px; line-height: 50px; font-weight: 600; margin: var(--espaco-3) 0 0; max-width: 820px; }
+.kb-corpo { font-size: 34px; line-height: 48px; font-weight: 400; margin: var(--espaco-4) 0 0; max-width: 860px; }
+.kb-corpo + .kb-corpo { margin-top: var(--espaco-3); }
+.kb-arte--escura .kb-subtitulo, .kb-arte--escura .kb-corpo { color: var(--texto-claro); }
+
+.kb-marca { background: var(--menta); color: var(--texto); border-radius: var(--raio-sm); padding: 0 .12em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.kb-arte--escura .kb-marca { background: none; color: var(--energia); padding: 0; }
+
+.kb-rodape { margin-top: auto; display: flex; justify-content: space-between; align-items: center; font-size: 24px; line-height: 32px; font-weight: 500; color: var(--texto-suave); }
+.kb-arte--escura .kb-rodape { color: var(--texto-claro-suave); }
+.kb-arte--verde .kb-rodape { color: var(--texto-claro); }
+
+.kb-plano { display: inline-flex; align-items: center; gap: var(--espaco-2); background: var(--energia); color: var(--texto);
+  border-radius: var(--raio-pilula); padding: var(--espaco-2) var(--espaco-4); font-family: var(--font-display); font-weight: 800;
+  font-size: 56px; line-height: 1; text-transform: uppercase; letter-spacing: .02em; }
+.kb-plano small { font-family: var(--font-texto); font-size: 26px; font-weight: 600; text-transform: none; letter-spacing: 0; }
+.kb-plano--menor { font-size: 40px; padding: var(--espaco-1) var(--espaco-3); }
+
+.kb-cartao { background: var(--fundo-elevado); color: var(--texto); border-radius: var(--raio-md); padding: var(--espaco-3); }
+.kb-arte--verde .kb-cartao { color: var(--texto); }
+
+/* motivo da marca: anilhas que sangram da borda */
+.kb-anilha { position: absolute; border-radius: 50%; pointer-events: none; }
+
+/* reel e story: guias da área segura (só no modelo, não exportar) */
+.kb-guia { position: absolute; left: 0; right: 120px; top: 250px; bottom: 420px; border: 3px dashed var(--texto-claro-suave); border-radius: var(--raio-sm); pointer-events: none; }
+.kb-video { position: absolute; inset: 0; background: var(--verde); }
+.kb-faixa { background: var(--verde-profundo); color: var(--texto-claro); border-radius: var(--raio-md); padding: var(--espaco-3); }
